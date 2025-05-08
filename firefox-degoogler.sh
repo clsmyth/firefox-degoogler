@@ -10,7 +10,6 @@ if [[ "$OSTYPE" =~ "darwin" ]]; then
       cp -R ./user.js "${found_profile}"; \
       echo "done"; \
     done
-#    open -a Firefox
 else
     echo "Not running on a Mac"
 fi
