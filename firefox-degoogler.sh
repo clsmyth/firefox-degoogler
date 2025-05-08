@@ -19,7 +19,6 @@ fi
 
 # check for profile directory
 profile_dir=~/"Library/Application Support/Firefox/Profiles"
-profile_dir=~/"fire fox"
 
 if [ -d "${profile_dir}" ]; then
     echo "Profile dir '${profile_dir}' found"
